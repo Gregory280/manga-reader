@@ -1,0 +1,50 @@
+<div class="ui small inverted menu bigger-nav">
+  <div class="ui container">
+    <div class='item'>
+      <%= link_to(image_tag ("logo2.svg"), id: "logo") %>
+    </div>
+    <div class="ui simple dropdown item nav-text">
+      MANGÁS <i class="chevron down icon" style="margin-left:4px;"></i>
+      <div class="menu item-text">
+        <%= link_to '#' do %>
+          <div class="item-text-content">ATUALIZADOS</div>
+        <% end %>
+         <%= link_to '#' do %>
+          <div class="item-text-content">POPULARES</div>
+        <% end %>
+         <%= link_to '#' do %>
+          <div class="item-text-content">NOVOS</div>
+        <% end %>
+      </div>
+    </div>
+    <%= link_to 'BLOG', '#', class: 'item nav-text' %>
+    <div class="ui simple dropdown item nav-text">
+      SOBRE <i class="chevron down icon" style="margin-left:4px;"></i>
+      <div class="menu item-text">
+        <%= link_to '#' do %>
+          <div class="item-text-content">CONTATO</div>
+        <% end %>
+      </div>
+    </div>
+    <%= link_to 'Sign Up', '#', class: 'item nav-text' %>
+    <div class="right menu">
+      <div class="item search-item">
+        <div class="ui fluid category search">
+          <div class="ui icon input">
+            <input class="prompt" style="width:360px;" type="text" placeholder="Pesquise pelo título mangá...">
+            <i class="search icon"></i>
+          </div>
+          <div class="results"></div>
+        </div>
+      </div>
+      <div class="item">
+        <%= link_to '#' do %>
+          <div class="ui inverted yellow basic button small">Sign Up</div>
+        <% end %>
+      </div>
+      
+      
+      
+    </div>
+  </div>
+</div>

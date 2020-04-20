@@ -1,0 +1,29 @@
+@import "semantic-ui";
+
+#logo {
+  width:200px;
+}
+.bigger-nav {
+  height: 100px;
+  background: linear-gradient(45deg, #FF4B2B,#FF416C)!important;
+}
+
+.nav-text {
+  font-size:15px;
+  font-family: 'Fredoka One', cursive;
+}
+
+.item-text-content {
+  padding: 14px 40px;
+  text-align: center;
+  width:auto;
+  transition:0.5s;
+  opacity:0.6;
+  color:black;
+  &:hover {
+    background: linear-gradient(45deg, #FF4B2B,#FF416C)!important;
+    color:white;
+    opacity:1;
+  }
+}
+
